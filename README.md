@@ -37,7 +37,7 @@ _Available Commands_
 
 Follow the on-screen prompts to execute commands and manage player/team data.
 
-<img src="add image url" width="120">
+![Screenshot_2024_0310_164023](https://github.com/craftingeagle/FFCompanion/assets/162383653/3d656d4d-b080-4f89-b2aa-0f125406833d)
 
 ## Contributing
 We welcome contributions from the community! If you'd like to contribute to CodeGenius, please check out our contribution guidelines.
