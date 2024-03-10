@@ -4,7 +4,7 @@
 
 [![Version](https://img.shields.io/badge/version-1.0-blue.svg)](https://github.com/yourusername/FFCompanion)
 
-🎮📱 FFCompanion is your ultimate Termux tool designed specifically for Garena Free Fire enthusiasts! 🚀
+🛠️ Create your dream team effortlessly with FFCompanion's intuitive commands, allowing you to add new players, organize teams, and strategize your next moves with precision. 🎯
 
 ## Installation
 
