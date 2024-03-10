@@ -37,7 +37,7 @@ _Available Commands_
 
 Follow the on-screen prompts to execute commands and manage player/team data.
 
-<img src="https://i.imgur.com/k4ZYqy7.png" width="180">
+<img src="add image url" width="120">
 
 ## Contributing
 We welcome contributions from the community! If you'd like to contribute to CodeGenius, please check out our contribution guidelines.
