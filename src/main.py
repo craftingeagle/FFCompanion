@@ -21,10 +21,10 @@ def print_welcome():
     print(bcolors.OKGREEN + "Version: 1.0")
     print("Creator: CodeCraftingEagle")
     print("GitHub: https://github.com/craftingeagle")
-    print("YouTube: http://www.youtube.com/@CodeCraftingEagle")
+    print("YouTube: https://www.youtube.com/@CodeCraftingEagle")
     print("Usage: Enter 'help' for available commands." + bcolors.ENDC)
-    print()
-
+    print(bcolors.HEADER + "=========================================")
+    print("=========================================" + bcolors.ENDC)
 def main():
     # Print welcome message
     print_welcome()
