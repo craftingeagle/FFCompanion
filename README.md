@@ -35,6 +35,10 @@ _Available Commands_
 - `create_team`: Create a new team
 - `exit`: Exit FFCompanion
 
+Follow the on-screen prompts to execute commands and manage player/team data.
+
+<img src="https://i.imgur.com/k4ZYqy7.png" width="180">
+
 ## Contributing
 We welcome contributions from the community! If you'd like to contribute to CodeGenius, please check out our contribution guidelines.
 
