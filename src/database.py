@@ -28,6 +28,14 @@ class PlayerDB:
                             VALUES (?, ?, ?, ?, ?)''', (username, level, kills, deaths, assists))
         self.conn.commit()
 
+    def delete_player(self, player_id):
+        self.cursor.execute("DELETE FROM Players WHERE id = ?", (player_id,))
+        self.conn.commit()
+
+    def update_player(self, player_id, field, value):
+        self.cursor.execute(f"UPDATE Players SET {field} = ? WHERE id = ?", (value, player_id))
+        self.conn.commit()
+
     def get_players(self):
         self.cursor.execute("SELECT * FROM Players")
         return self.cursor.fetchall()
@@ -36,3 +44,4 @@ class PlayerDB:
         self.cursor.execute('''INSERT INTO Teams (name, leader_id)
                             VALUES (?, ?)''', (name, leader_id))
         self.conn.commit()
+
