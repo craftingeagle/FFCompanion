@@ -19,7 +19,7 @@ def print_welcome():
     print(bcolors.HEADER + "=========================================")
     print("          Welcome to FFCompanion")
     print("=========================================" + bcolors.ENDC)
-    print(bcolors.OKGREEN + "Version: 1.0")
+    print(bcolors.OKGREEN + "Version: 1.1")
     print("Creator: CodeCraftingEagle")
     print("GitHub: https://github.com/craftingeagle")
     print("YouTube: https://www.youtube.com/@CodeCraftingEagle")
