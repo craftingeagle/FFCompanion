@@ -27,11 +27,13 @@
 _Install Required Packages_
 
    ```bash
-   pkg install python
+pkg install git python3 sqlite autoconf automake cmake ninja clang libllvm libtool make
    ```
-   ```bash
-   pkg install sqlite
-   ```
+_*Additional Notes*_
+   
+If you're running this in a non-root environment like Termux, ensure all the necessary packages and compilers are correctly set up.
+Ensure your system has enough space and the correct architecture libraries (ARM in your case) to support these packages.
+
 _Available Commands_
 
 - `help`: Display available commands
