@@ -1,7 +1,12 @@
 # FFCompanion 🎮💬
 🛠️ Create your dream team effortlessly with FFCompanion's intuitive commands, allowing you to add new players, organize teams, and strategize your next moves with precision. 🎯
 
-[![Version](https://img.shields.io/badge/version-1.0-blue.svg)](https://github.com/yourusername/FFCompanion)
+[![License](https://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge)](LICENSE)
+[![Python](https://img.shields.io/static/v1?label=Python&message=3.x&color=blue&style=for-the-badge&logo=python)](https://www.python.org/)
+ 
+[![Build](https://img.shields.io/static/v1?label=Build&message=Passing&color=success&style=for-the-badge&logo=github)](https://github.com/craftingeagle/FFCompanion/actions)
+[![Stars](https://img.shields.io/github/stars/craftingeagle/FFCompanion?color=yellow&style=for-the-badge&logo=github)](https://github.com/craftingeagle/FFCompanion/stargazers)
+
 
 ## Installation
 
