@@ -12,7 +12,7 @@
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/FFCompanion.git
+   git clone https://github.com/craftingeagle/FFCompanion.git
    ```
    ```bash
    cd FFCompanion
