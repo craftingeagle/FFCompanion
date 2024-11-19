@@ -1,8 +1,8 @@
-name: FFCompanion
+name: Publish FFCompanion Package
 
 on:
   release:
-    types: [created] # Trigger when a new release is created
+    types: [created] # Trigger the workflow on release creation
 
 jobs:
   publish:
@@ -11,14 +11,14 @@ jobs:
 
     steps:
       # Checkout the repository
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v3
 
       # Set up Python environment
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.9" # Specify your Python version
+          python-version: "3.9" # Update if you need additional versions
 
       # Install dependencies
       - name: Install dependencies
@@ -26,15 +26,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install build twine
 
-      # Build the package
+      # Build the Python package
       - name: Build package
         run: python -m build
 
       # Publish to PyPI
-      - name: Publish to PyPI
+      - name: Upload to PyPI
         env:
           TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}
           TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
         run: |
           python -m twine upload dist/*
-          
